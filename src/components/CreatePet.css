@@ -1,0 +1,42 @@
+/* frontend/src/components/CreatePet.css */
+
+@keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .wrapper {
+    overflow: hidden;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6); /* Transparent black background */
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bayshore (Bayview)', cursive;
+    font-size: 50px;
+    color: #fbf8f8;
+    margin: 0;
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: neon-glow 1s ease infinite alternate;
+  }
+  
+  @keyframes neon-glow {
+    from {
+      text-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 10px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.7);
+    }
+    to {
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.9), 0 0 20px rgba(0, 255, 255, 0.9), 0 0 30px rgba(0, 255, 255, 0.9), 0 0 40px rgba(0, 255, 255, 0.9);
+    }
+  }
+  

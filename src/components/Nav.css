@@ -1,0 +1,89 @@
+.ttttt {
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Giddy Up', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    animation: neon-glow 0.5s ease infinite alternate;
+    
+  }
+.t
+{
+    display: flex;
+    padding: 0.5rem;
+    align-items: left;
+    justify-content: left;
+    font-family: 'Bayshore (Bayview)', cursive;
+    font-size: 40px;
+    color: #fff; /* Navy Blue color */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 3px solid #931778;
+    border-radius: 60px;
+    transition: background-color 0.3s;
+    align-items: center;
+    justify-content: center;
+    animation: neon-glow 0.5s ease infinite alternate, moveLeftToRight 10s linear infinite; 
+}
+  
+  .nav-links {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .nav-link {
+    font-family: 'Bayshore (Bayview)', cursive;
+    font-size: 40px;
+    color: #fff; /* Navy Blue color */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 3px solid #931778;
+    border-radius: 60px;
+    transition: background-color 0.3s;
+    
+    
+    animation: neon-glow 0.5s ease infinite alternate, moveLeftToRight 10s linear infinite;
+  
+    /* Add glowing effect */
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #93175f;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #8d1793, 0 0 20px #701793, 0 0 30px #801793;
+      opacity: 0;
+      animation: neo-glow 1s ease infinite alternate;
+    }
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #931721;
+      color: #cc1d1d;
+    }
+  }
+  
+
+  /* Add more styles as needed */
+  
+  
+  /* Add more styles as needed */
+  @keyframes neon-glow {
+    from {
+      text-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 10px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.7);
+    }
+    to {
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.9), 0 0 20px rgba(0, 255, 255, 0.9), 0 0 30px rgba(0, 255, 255, 0.9), 0 0 40px rgba(0, 255, 255, 0.9);
+    }
+  }
+

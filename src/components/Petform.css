@@ -1,0 +1,77 @@
+/* frontend/src/components/PetForm.css */
+
+/* Form container */
+/* frontend/src/components/PetForm.css */
+
+/* Form container */
+form {
+    max-width: 450px;
+    margin: 10px auto;
+    padding: 20px;
+    /*background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: white; /* White text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light box shadow with white color */
+  }
+  
+  /* Rest of the styles... */
+  input {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background for input boxes */
+    color: white; /* Black text color */
+    border: none; /* Remove border */
+    padding: 8px; /* Adjust padding as needed */
+    margin-bottom: 10px; /* Add space between input boxes */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  
+  /* Form fields */
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Submit button */
+  button {
+    background-color: #28a745; /* Green color */
+    color: #fff; /* White color */
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+
+/* frontend/src/components/PetForm.css */
+
+/* Add this style to color "Lost" status in red */
+select option[value="Lost"] {
+    color: red;
+  }
+  
+  /* Add this style to color "Found" status in green */
+  select option[value="Found"] {
+    color: green;
+  }
+  
+  

@@ -1,0 +1,15 @@
+/* frontend/src/components/Footer.css */
+
+.Footer {
+    background-color: rgba(0, 0, 0, 0.8);;
+    color: #fff;
+    text-align: left;
+    padding: 13px 0; /* Adjust padding as needed */
+    margin-top: 10px; /* Add negative margin to bring the footer closer to the form */
+    width: 100%; /* Make the footer full-width */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
